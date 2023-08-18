@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício - Módulo 7</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Exercício do Módulo 7</h1>
+        <h2>Validação de Valores</h2>
+        <form id="form-validacao">
+            <input type="number" id="campo-a" required placeholder="Insira o Valor A" />
+            <input type="number" id="campo-b" required placeholder="Insira o Valor B" />
+            <button type="submit" id="btn-validar">Depositar</button>
+        </form>
+        <p class="mensagem-validacao">Validação realizada com sucesso.<br>O valor do campo B é maior que o valor do campo A.</p>
+        <p class="mensagem-erro">Validação não realizada.<br>O valor do campo A não pode ser <b><u>maior ou igual</u></b> ao valor do campo B.</p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
